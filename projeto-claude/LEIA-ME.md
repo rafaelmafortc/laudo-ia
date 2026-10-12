@@ -39,7 +39,7 @@ A skill e o preenchimento do .docx precisam dela.
 2. Clique em **"+"** > **Criar skill** > **Enviar uma skill** (Upload a skill) e escolha `laudo-pericial.zip`.
 3. Ligue a skill no botão ao lado do nome.
 
-O ZIP já está no formato exigido: a pasta `laudo-pericial/` na raiz, com `SKILL.md` dentro, e o nome da pasta igual ao nome da skill. A descrição tem 193 caracteres; a Central de Ajuda fala em limite de 200.
+O ZIP já está no formato exigido: a pasta `laudo-pericial/` na raiz, com `SKILL.md` dentro, e o nome da pasta igual ao nome da skill. A descrição tem 194 caracteres; a Central de Ajuda fala em limite de 200.
 
 No Team e no Enterprise, a skill pode ser compartilhada com outras pessoas da organização (fica só leitura para elas e atualiza sozinha).
 

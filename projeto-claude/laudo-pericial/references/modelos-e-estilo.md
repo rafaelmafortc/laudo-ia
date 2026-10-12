@@ -1,7 +1,7 @@
 # Modelos dos peritos, estilo e exemplos
 
 Conteúdo:
-1. Reconhecer o modelo (A, B e C)
+1. Reconhecer o modelo (A, B, C ou novo)
 2. Estilo comum
 3. Exemplo: discussão acidentária (Perito A)
 4. Exemplo: quesitos do INSS
@@ -43,6 +43,15 @@ Há três famílias de modelos, e o mesmo modelo pode ser usado por mais de um p
 - **Marcações:** nenhuma. Pergunte o que deve ser redigido, ou compare com o que está vazio.
 - **Voz:** "a perita"; respostas curtas.
 - **Cuidado:** "Favor se dirigir ao item X" só quando o item X responde ao que foi perguntado; "Repetido" deve dizer qual quesito ("Vide resposta ao quesito 9").
+
+### Modelo novo (perito ou modelo não listado)
+
+- **Mapeie as seções:** dados dos autos (em geral prontos), anamnese e exame (do perito), raciocínio (discussão, considerações, conclusões), valoração, quesitos, literatura, encerramento.
+- **Descubra a convenção:** cores, campos vazios, colchetes, "____", texto genérico. Se continuar ambíguo, pergunte uma vez: "Quais seções devo redigir?".
+- **Imite o próprio modelo:** numeração dos quesitos, "Resp.:" ou outra forma, pessoa verbal, extensão.
+- **Texto pré-escrito** (exame normal, conclusões, respostas prontas) é hipótese até ser conferido, como nos modelos A e B.
+- O mesmo perito pode ter variações do modelo (seções a mais ou a menos): siga o arquivo recebido.
+- No fim, sugira ao usuário incluir o perito e o modelo nas instruções do projeto.
 
 ## 2. Estilo comum
 

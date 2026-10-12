@@ -1,7 +1,7 @@
 # Regras de domínio da perícia médica judicial
 
 Conteúdo:
-1. Identificar o tipo de processo
+1. Identificar o tipo de perícia (inclui outros tipos e o roteiro genérico)
 2. Acidentária (auxílio-acidente)
 3. Trabalhista: nexo, incapacidade, valoração e hérnia inguinal
 4. Psiquiatria
@@ -9,7 +9,9 @@ Conteúdo:
 6. Erros dos laudos de exemplo que não devem ser copiados
 7. Dados mínimos de exame por segmento
 
-## 1. Identificar o tipo de processo
+## 1. Identificar o tipo de perícia
+
+### 1.1 Acidentária × trabalhista
 
 | Sinal no laudo | Acidentária (Justiça Estadual) | Trabalhista (TRT) |
 |---|---|---|
@@ -19,6 +21,26 @@ Conteúdo:
 | Termos corretos | Autor / Réu | Reclamante / Reclamada |
 
 Se os termos não batem com o tipo (por exemplo, "Reclamante" num processo contra o INSS), use o termo correto no texto gerado e registre a divergência nas correções fora do amarelo.
+
+### 1.2 Outros tipos de perícia e roteiro genérico
+
+Esta skill tem cadeia detalhada só para a acidentária (§2) e a trabalhista (§3). Outros tipos aparecem; identifique a pergunta central pelo despacho de nomeação e pelos quesitos do Juízo.
+
+| Tipo | Onde costuma tramitar | Pergunta central | Cuidados |
+|---|---|---|---|
+| Previdenciária comum (incapacidade) | Justiça Federal (J = 4) | Há incapacidade para o trabalho habitual? Desde quando (DII), temporária ou permanente, com potencial de reabilitação? | Separe DID de DII. O laudo pode ser feito no Sisperjud (Res. CNJ 595/2024), com quesitação unificada. |
+| BPC/LOAS (deficiência) | Justiça Federal | Há impedimento de longo prazo (mínimo de 2 anos) que, com as barreiras, obstrui a participação em igualdade de condições? | Lei 8.742/93, art. 20, §§2º e 10. Não é só incapacidade para o trabalho. |
+| Seguro de pessoa ou seguro obrigatório de trânsito | Justiça Estadual | Há invalidez permanente? Total ou parcial, em que segmento e em que grau pela tabela aplicável? | Confira nos autos a apólice ou a lei vigente na data do acidente. Percentual com tabela e item. |
+| Responsabilidade médica | Justiça Estadual ou Federal | A conduta seguiu a boa prática da época? Há nexo entre a conduta e o dano? Qual o dano? | Sem juízo de culpa. Literatura e protocolos da época dos fatos. Valoração do dano pelo §3.3. |
+| Interdição/curatela | Justiça Estadual (família) | A condição impede exprimir a vontade ou gerir os bens? Para quais atos e por quanto tempo? | CPC, art. 753; Lei 13.146/2015, arts. 84 e 85 (curatela proporcional, atos patrimoniais e negociais). Exame do estado mental completo. |
+
+**Roteiro genérico** (tipo sem cadeia detalhada, ou doença sem regra própria):
+1. Pergunta central, tirada do despacho e dos quesitos do Juízo.
+2. Fatos documentados, com data e fonte.
+3. Achados do exame, só os registrados (§7 dá o mínimo por segmento).
+4. Critério técnico declarado: tabela, classificação ou diretriz, com nome e versão.
+5. Resposta à pergunta central, ligando 2, 3 e 4.
+6. Normas: cite só as que constam nos autos ou que foram conferidas; na dúvida, `[REVISAR: norma ou critério]`. Não cite artigo de memória para um tipo novo.
 
 ## 2. Acidentária: auxílio-acidente
 
@@ -96,7 +118,7 @@ A pensão (CC, art. 950) ≈ remuneração × % de redução da capacidade × % 
 
 ### 3.2 Cadeia da discussão
 
-1. Diagnóstico com CID e certeza diagnóstica.
+1. Diagnóstico com CID e certeza diagnóstica. **Várias patologias** (ex.: coluna, ombros e punhos): uma análise de nexo para cada diagnóstico; as conclusões podem ser diferentes.
 2. Exposição: profissiografia, documentos de SST, período e **qual reclamada** (com várias, separe períodos e empregadores; atenção a "período imprescrito").
 3. Estado anterior e fatores extralaborais.
 4. Critérios de nexo:
@@ -190,6 +212,8 @@ Texto pronto para as observações finais (substitui "Obs." e "Obs. 2" do modelo
 ## 7. Dados mínimos de exame por segmento
 
 Se faltarem, gere pendência; não conclua como se existissem.
+
+- **Qualquer segmento** (inclusive os não listados abaixo): inspeção, palpação, amplitude em graus dos dois lados, força por grupo muscular, testes nomeados com resultado, exame neurológico do território e comparação com o lado oposto.
 
 - **Articulação com limitação:** amplitude em graus de todos os movimentos (cotovelo: flexão, extensão, pronação e supinação; joelho: flexão e extensão; ombro: flexão, abdução, rotações) dos **dois lados**, com a referência.
 - **Força:** por grupo muscular (MRC 0–5); dinamometria, se houver.

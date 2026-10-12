@@ -1,6 +1,6 @@
 ---
 name: laudo-pericial
-description: Preenche laudos periciais médicos judiciais no .docx do perito (TJRJ acidentária e TRT), respondendo quesitos, redigindo discussão e conclusão, preparando pelos autos, revisando e esclarecendo.
+description: Preenche laudos periciais médicos judiciais no .docx do perito (acidentários, trabalhistas e outros), respondendo quesitos, redigindo discussão e conclusão, preparando, revisando e esclarecendo.
 ---
 
 # Laudo pericial médico judicial
@@ -90,10 +90,21 @@ Regras:
 
 ## 4. Modo B: concluir o laudo
 
-### 4.1 Identificar o tipo e o modelo
+### 4.1 Identificar o caso, sem presumir
 
-- Tipo de processo: `dominio.md` §1 (acidentária ou trabalhista; ortopédica ou psiquiátrica).
-- Modelo e o que é "a redigir" nele: `modelos-e-estilo.md` §1. Reconheça pela estrutura (o mesmo modelo serve a mais de um perito). No modelo A, o amarelo marca as seções a redigir. No modelo B, o amarelo marca **dados** pendentes e as conclusões já vêm escritas. No modelo C não há marcação.
+Cada laudo é um caso diferente. Identifique-o pelo próprio arquivo, não pelo exemplo mais parecido nem pelo último laudo:
+
+| O quê | Onde ver | Referência |
+|---|---|---|
+| Tipo de perícia e pergunta central | Número CNJ, polo passivo, objetivo, quesitos do Juízo | `dominio.md` §1 |
+| Perito, modelo e convenção de marcação | Cabeçalho, estrutura, cores, campos vazios | `modelos-e-estilo.md` §1 |
+| Patologias | Objetivo, inicial, documentos | uma análise para cada uma |
+| Partes | Cabeçalho, contestações | exposição e período por reclamada |
+| O que já está pronto e o que falta | RESUMO do extrator | §4.3 |
+| Conclusão | Texto pré-escrito, pedido do usuário ou nenhuma | §4.4 |
+
+- No modelo A, o amarelo marca as seções a redigir; no modelo B, marca **dados** pendentes e as conclusões já vêm escritas; no modelo C não há marcação.
+- **Caso novo** (perito ou modelo não listado, tipo de perícia sem cadeia detalhada, doença sem regra própria): diga ao usuário o que é novo e siga o roteiro genérico (`dominio.md` §1.2 e "Modelo novo" em `modelos-e-estilo.md` §1). Não force o caso num modelo ou tipo conhecido.
 
 ### 4.2 Montar a ficha do caso
 
@@ -124,7 +135,8 @@ A conclusão é do perito. A skill confere ou propõe; nunca decide.
 
 ### 4.5 Redigir a discussão e a conclusão
 
-- **Ordem:** a cadeia do tipo de processo (`dominio.md` §2.2 ou §3.2). Cada passo cita o achado ou o documento.
+- **Ordem:** a cadeia do tipo de processo (`dominio.md` §2.2, §3.2 ou o roteiro genérico do §1.2). Cada passo cita o achado ou o documento.
+- **Várias patologias:** analise cada uma (diagnóstico, nexo, incapacidade) e conclua por patologia; as conclusões podem ser diferentes. **Várias reclamadas:** exposição e período de cada uma.
 - **Acidentária:** explicite a repercussão tarefa a tarefa; é o que separa "redução funcional" de "redução da capacidade laborativa".
 - **Trabalhista:** declare o critério de nexo e, se houver percentual, o método e a conta. Se o modelo tem valoração do dano, preencha-a coerente com a consolidação.
 - **Fecho:** a frase de conclusão no padrão do perito (ex.: "este Perito CONCLUI que…", com a conclusão em negrito), seguida das observações finais com as normas vigentes (`dominio.md` §5).
