@@ -3,7 +3,7 @@
 Conteúdo:
 1. Identificar o tipo de processo
 2. Acidentária (auxílio-acidente)
-3. Trabalhista: nexo, incapacidade e valoração
+3. Trabalhista: nexo, incapacidade, valoração e hérnia inguinal
 4. Psiquiatria
 5. Normas: o que substituir
 6. Erros dos laudos de exemplo que não devem ser copiados
@@ -11,9 +11,9 @@ Conteúdo:
 
 ## 1. Identificar o tipo de processo
 
-| Sinal no laudo | Acidentária (TJRJ) | Trabalhista (TRT) |
+| Sinal no laudo | Acidentária (Justiça Estadual) | Trabalhista (TRT) |
 |---|---|---|
-| Número CNJ, 3º bloco (`NNNNNNN-DD.AAAA.J.TR.OOOO`) | `.8.19.` (Justiça Estadual) | `.5.01.` (Justiça do Trabalho) |
+| Número CNJ (`NNNNNNN-DD.AAAA.J.TR.OOOO`) | J = 8, Justiça Estadual (TR 19 = RJ; 26 = SP) | J = 5, Justiça do Trabalho (TR 01 = TRT-1/RJ; 02 = TRT-2/SP) |
 | Polo passivo | INSS | Empresa(s) |
 | Pergunta central | Sequela consolidada reduz a capacidade para o trabalho habitual? | Nexo/concausa, incapacidade, dano corporal, estabilidade |
 | Termos corretos | Autor / Réu | Reclamante / Reclamada |
@@ -126,6 +126,15 @@ Responda "Extrapola o objeto da perícia médica", com uma frase de motivo, quan
 
 PGR (NR-1, desde 03/01/2022) **substituiu o PPRA**; PPRA só vale para períodos anteriores. Riscos psicossociais no GRO: NR-1, item 1.5.3.1.4, em vigor desde 26/05/2026. PCMSO/ASO (NR-7). AEP/AET (NR-17). LTCAT/PPP (Lei 8.213, art. 58; PPP eletrônico desde 2023).
 
+### 3.6 Hérnia inguinal (caso frequente)
+
+- **O tipo importa.** Indireta: persistência do conduto peritoniovaginal, de base congênita, mais comum à direita. Direta: fraqueza adquirida da parede posterior do canal inguinal. Confira o tipo no laudo de imagem ou no relatório cirúrgico. Não confunda "direita" (lado) com "indireta" (tipo): a explicação congênita só serve para a indireta.
+- **Fatores individuais:** sexo masculino, idade, obesidade, tabagismo, tosse crônica, constipação, cirurgia abdominal prévia, história familiar.
+- **Trabalho:** a LDRT (Portaria GM/MS 1.999/2023) relaciona K40 à manipulação de carga; é fato a enfrentar, não conclusão automática. Separe a **exposição habitual** (carga real, frequência, tempo) do **evento único** de esforço alegado.
+- **Evento único (Simonin aplicado):** esforço real e intensidade (a carga efetivamente suportada), dor imediata, atendimento próximo do evento, ausência de registro anterior da hérnia, intervalo até o diagnóstico por imagem, tipo da hérnia.
+- **Incapacidade:** em geral, da cirurgia (ou do período pré-operatório sintomático) até a liberação; dê as datas documentadas (relatório de alta, atestados, ASO de retorno).
+- **Exame atual:** cicatriz, abaulamento, manobras (Valsalva em pé e deitado), dor à palpação, recidiva. Sem esse exame registrado, não conclua "totalmente restabelecido".
+
 ## 4. Psiquiatria
 
 - Roteiro obrigatório: história psiquiátrica e **exame do estado mental** (Res. CFM 2.056/2013, art. 58, alíneas g e k).
@@ -169,6 +178,14 @@ Texto pronto para as observações finais (substitui "Obs." e "Obs. 2" do modelo
 - "Baremo argentino 8%" para hérnia; concausa de 25% não aplicada ao déficit.
 - "Vide item X" apontando para item que não trata do assunto; "Repetido" e "Prejudicado" sem explicar.
 - Dados de outro caso no cabeçalho (dois processos, dois reclamantes; CRM com UF errada).
+- Resposta que não conclui ("depende", "pode") ou que não responde ao perguntado (o quesito pede datas e a resposta não dá; pede elementos objetivos e a resposta fala de outra coisa).
+- Respostas contraditórias entre quesitos (ex.: afastamentos "incompatíveis" num quesito e incapacidade no pós-operatório no seguinte).
+- Juízo sobre ato do INSS ("o benefício foi concedido de maneira correta") e comentário sobre a pessoa do periciando.
+- Diagnóstico a partir de uma única medida (ex.: "hipertensão" por uma aferição de pressão na perícia).
+- 15.1 e 15.2 vazios com a conclusão pronta em 15.6: falta o raciocínio (CPC, art. 473, §1º).
+- Fundamentação copiada de site leigo ("Neste artigo vamos explicar…", "manobra que damos o nome…").
+- Explicação de hérnia indireta (congênita) aplicada a hérnia direta.
+- Número de laudas desatualizado no encerramento.
 
 ## 7. Dados mínimos de exame por segmento
 
@@ -180,5 +197,6 @@ Se faltarem, gere pendência; não conclua como se existissem.
 - **Úmero distal/cotovelo operado:** nervo ulnar (Tinel, sensibilidade, força intrínseca).
 - **Testes específicos:** nome e resultado de cada um. "Sem alterações aos testes" não basta.
 - **Marcha:** padrão e uso de auxílio.
-- **Hérnia:** manobras realizadas (Valsalva, em pé e deitado), cicatriz, recidiva.
+- **Hérnia:** manobras realizadas (Valsalva, em pé e deitado), cicatriz, abaulamento, recidiva (§3.6).
+- **Sinais vitais:** os do modelo (ex.: 130x80 mmHg, FC 80, FR 20) só valem se a perita confirmar que mediu.
 - **Psiquiatria:** exame do estado mental completo; escalas só como complemento.

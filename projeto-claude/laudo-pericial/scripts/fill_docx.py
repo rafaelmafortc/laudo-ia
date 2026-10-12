@@ -423,7 +423,8 @@ def main():
     args = parser.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
-    raw = Path(args.operacoes).read_text(encoding="utf-8") if Path(args.operacoes).is_file() else args.operacoes
+    inline = args.operacoes.lstrip().startswith("{")
+    raw = args.operacoes if inline else Path(args.operacoes).read_text(encoding="utf-8")
     ops = json.loads(raw)
     source = ensure_docx(args.laudo)
     root = load_document(source)

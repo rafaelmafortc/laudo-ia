@@ -12,6 +12,9 @@ Leia o laudo inteiro (extract_docx.py) e `dominio.md`. Liste os problemas do mai
 - "Não há divergência" com o INSS quando a conclusão diverge da decisão administrativa.
 - Dados de outro caso: outro número de processo, outro nome, CRM com UF errada.
 - Texto meta de IA ("Segue a versão…"), comentários, marcações [PENDENTE]/[REVISAR] ou realces esquecidos.
+- Seção de raciocínio vazia com conclusão pronta (no modelo B, 15.1 e 15.2 vazios).
+- Respostas não conclusivas ("depende", "pode") ou contraditórias entre quesitos.
+- Exame do segmento da queixa não registrado (ex.: região inguinal numa hérnia), ou sinais vitais do modelo não conferidos.
 
 **Graves**
 - Datas incoerentes: assinatura antes do exame; preâmbulo e encerramento com datas diferentes; DIB antes do acidente; consolidação antes do fim do tratamento.
@@ -21,8 +24,10 @@ Leia o laudo inteiro (extract_docx.py) e `dominio.md`. Liste os problemas do mai
 - "Vide item X" para item que não trata do assunto; "Repetido"/"Prejudicado" sem dizer qual quesito ou por quê.
 - Juízo jurídico ("faz jus", culpa, responsabilidade, licitude da dispensa).
 - Normas revogadas (tabela de `dominio.md` §5).
+- Diagnóstico a partir de uma única medida (ex.: hipertensão por uma aferição).
 
 **Forma**
+- Número de laudas no encerramento desatualizado.
 - Erros de digitação nos títulos ("ILUSTRTIVAS", "QUANTUN", "Hpa"), UF incompleta ("Rio de Janeiro - J").
 - Literatura colada sobre outra lesão, com primeira pessoa do autor original, ou de site leigo.
 - Exame mínimo ausente para o segmento (`dominio.md` §7): aponte o que faltou medir; não invente o valor.

@@ -1,12 +1,12 @@
 # Modelos dos peritos, estilo e exemplos
 
 Conteúdo:
-1. Reconhecer o modelo (Perito A, Perita B, Perita C)
+1. Reconhecer o modelo (A, B e C)
 2. Estilo comum
 3. Exemplo: discussão acidentária (Perito A)
 4. Exemplo: quesitos do INSS
 5. Exemplo: discussão trabalhista de trauma (Perito A)
-6. Exemplo: conclusões da Perita B
+6. Exemplo: conclusões do modelo B
 7. Respostas a quesitos difíceis
 8. Frases a evitar
 
@@ -14,9 +14,9 @@ Os exemplos foram reescritos a partir de laudos reais, sem nomes, **já com as c
 
 ## 1. Reconhecer o modelo
 
-Cada perito tem a sua família de modelos. Respeite a estrutura, a ordem e o vocabulário do modelo recebido; não imponha outro. As instruções do projeto dizem qual perito usa cada modelo.
+Há três famílias de modelos, e o mesmo modelo pode ser usado por mais de um perito, em tribunais diferentes. Reconheça o modelo pela estrutura, não pelo nome no cabeçalho. Respeite a estrutura, a ordem e o vocabulário do modelo recebido; não imponha outro. As instruções do projeto dizem quais peritos usam cada modelo.
 
-### Perito A (ortopedista; mesmo esqueleto no TJRJ e no TRT)
+### Modelo A (Perito A, ortopedista; mesmo esqueleto no TJRJ e no TRT)
 
 - **Sinais:** "LAUDO DE EXAME PERICIAL", qualificação longa, tabelas OBJETIVO / ALEGAÇÃO / METODOLOGIA, tabela de documentos DATA | DOCUMENTOS E DESCRIÇÃO | FLS, blocos LEGISLAÇÃO, LITERATURA, BIBLIOGRAFIA, dados bancários no início e no fim.
 - **Marcações:** vermelho = dado do caso preenchido; **amarelo = seção a redigir** (hoje "DISCUSSÃO E CONCLUSÃO" e "RESPOSTA AOS QUESITOS").
@@ -25,16 +25,19 @@ Cada perito tem a sua família de modelos. Respeite a estrutura, a ordem e o voc
 - **Quesitos:** enunciado numerado e, abaixo, "Resp.: …". Caixas ☐/☒ nos quesitos do INSS.
 - **Espaçamento:** parágrafos da discussão separados por uma linha em branco (no extrator, os ¶ pulam de dois em dois). Ao preencher, intercale `""` entre os parágrafos.
 
-### Perita B (modelos TRT ortopédico e psiquiátrico)
+### Modelo B (TRT ortopédico e psiquiátrico; usado por mais de uma perita, no TRT-1 e no TRT-2)
 
 - **Sinais:** "Excelentíssimo(a) Senhor(a) Doutor(a) Juiz(a)", seções numeradas (1.1 METODOLOGIA… 3.1 DO RECLAMANTE, PERFIL PROFISSIONOGRÁFICO, ESTADO ANTERIOR com ☐ Sim ☐ Não, HISTÓRIA DA DOENÇA ALEGADA em tabela, AVALIAÇÃO DE DEPENDÊNCIA, exame segmento a segmento com testes nomeados; no psiquiátrico, ANAMNESE PSIQUIÁTRICA, PHQ-9, GAD-7, EXAME DO ESTADO MENTAL e RISCO SUICIDA com caixas).
 - **Marcações:** amarelo = **campo pendente de dado** (peso, altura, dominância, escolaridade). Não é seção a redigir: só preencha com dado fornecido.
 - **Texto-padrão perigoso, sem marcação:** sinais vitais fixos (130x80 mmHg, FC 80, FR 20), exame "normal" de todos os segmentos e **conclusões já escritas** em 15.3 a 15.6 ("não foi constatado…", "NÃO há nexo"). Trate tudo isso como hipótese a confirmar, não como achado.
-- **Seções a redigir:** FUNDAMENTAÇÃO TEÓRICA, 15.1 Considerações do perito, 15.2 Sobre a doença do Reclamante, conferência de 15.3 a 15.6, todos os quesitos e, se houver, a justificativa da dispensa de vistoria.
+- **Variações do modelo:** pode trazer uma contestação por reclamada, "RESUMO DOS FATOS DA INICIAL" (na prática, a perita usa para o relato colhido na perícia) e "PERFIL PROFISSIONOGRÁFICO POSTERIOR À RECLAMADA". O exame especial pode faltar para a queixa do caso (ex.: não há bloco de região inguinal numa hérnia).
+- **O que a perita preenche** (dado do exame e da entrevista, nunca a IA sem as anotações dela): caixas do perfil e do estado anterior, tabela HISTÓRIA DA DOENÇA ALEGADA, tabelas de dependência (com "x"), dominância, peso, altura, sinais vitais medidos (ela troca os 130x80 do modelo pelo valor real), relato da perícia.
+- **Seções a redigir:** FUNDAMENTAÇÃO TEÓRICA (texto técnico próprio e curto, sobre a doença do caso, com as referências da BIBLIOGRAFIA), 15.1 Considerações do perito e 15.2 Sobre a doença do Reclamante (**nunca vazios**: é onde fica o raciocínio), conferência de 15.3 a 15.6, todos os quesitos e, se houver, a justificativa da dispensa de vistoria.
+- **Encerramento:** "composto por N laudas" deve ser atualizado.
 - **Voz:** "esta perita" / "a perita"; quesitos como "1) …" ou "1. …" seguidos de "Resp.:".
 - **Caixas de anamnese e exame** (Sim/Não, humor, afeto…): só marque com dado fornecido pela perita.
 
-### Perita C (medicina do trabalho; laudo gerado no MSLaudo)
+### Modelo C (Perita C, medicina do trabalho; laudo gerado no MSLaudo)
 
 - **Sinais:** tabelas geradas por sistema (ATITUDE, DADOS VITAIS E MEDIDAS, EXAME FÍSICO GERAL), "Linha do Tempo de Documentações", DADOS PROFISSIOGRÁFICOS quantificados, "RACIOCÍNIO TÉCNICO PERICIAL" com "AVALIAÇÃO DA PERITA", VALORAÇÃO DO DANO CORPORAL com baremo e Weliton, "QUESITOS COMPLEMENTARES".
 - **Marcações:** nenhuma. Pergunte o que deve ser redigido, ou compare com o que está vazio.
@@ -102,7 +105,7 @@ Estrutura (um parágrafo por item, linha em branco entre eles):
 
 Valoração coerente com isso: déficit funcional temporário total desde 29/09/2025 (em curso); *quantum doloris* com a escala declarada (ex.: 5/7, considerável: politrauma, duas cirurgias, internação de cerca de 30 dias, infecção); déficit permanente e classe de Weliton "prejudicados: dano ainda não consolidado"; dano estético com a escala declarada; dependências.
 
-## 6. Exemplo: conclusões da Perita B
+## 6. Exemplo: conclusões do modelo B
 
 Formato (cada subitem com 1 a 3 parágrafos):
 
@@ -127,6 +130,10 @@ As frases já escritas no modelo ("não foi constatado…", "NÃO há nexo…") 
 - **EPI, culpa, procedimentos de segurança, licitude da dispensa:** "Extrapola o objeto da perícia médica", com uma frase de motivo; pode-se citar o documento dos autos.
 - **"O perito desconsidera o atestado do assistente?"** O perito considera os documentos em conjunto com o exame e tem autonomia técnica (Res. CFM 2.430/2025, art. 6º); diga em que ponto concorda ou diverge e por quê.
 - **Quesito repetido:** "Vide resposta ao quesito N." Quesito prejudicado: "Prejudicado: [motivo]."
+- **"Pode…?" / "É possível…?"** Responda em tese e feche com o caso: "Pode, em tese. No caso, [o que os elementos mostram], pelo que [conclusão]." Nunca pare em "depende" ou "pode".
+- **Posições, movimentos e porcentagens do trabalho** (sem vistoria): "Conforme relato do Reclamante no ato pericial, …"; não responda "todas".
+- **Espécie do benefício (B31 × B91):** "A espécie do benefício não vincula a conclusão médico-pericial." Não julgue se o INSS concedeu "corretamente".
+- **Risco de recidiva e prevenção:** responda com a técnica (fatores de risco, orientação de técnica de transferência e de auxílio mecânico), sem comentário sobre a pessoa do periciando.
 
 ## 8. Frases a evitar
 

@@ -10,7 +10,7 @@ Conferido na Central de Ajuda da Anthropic em 11/10/2026. Os nomes dos menus mud
 |---|---|---|---|
 | Skill | `laudo-pericial.zip` (pasta `laudo-pericial/`) | Personalizar > Skills | Procedimento, regras de domínio, estilo dos peritos e os scripts que leem e preenchem o .docx. É carregada quando o pedido é sobre laudo. |
 | Instruções do projeto | `instrucoes-do-projeto.md` | Projeto > Instruções | Papel, peritos atendidos e regras que valem em toda conversa do projeto. Mandam usar a skill. |
-| Conhecimento do projeto | `docs/pesquisa-pericia-medica-judicial.md` e modelos em branco | Projeto > Arquivos | Referência de normas e literatura, e a estrutura de cada modelo. |
+| Conhecimento do projeto | `docs/pesquisa-pericia-medica-judicial.md`, pares de exemplo (`exemplos/`) e modelos em branco | Projeto > Arquivos | Referência de normas e literatura, do que se preenche em cada modelo e da estrutura de cada perito. |
 
 Por que essa divisão: as instruções ficam sempre no contexto, então são curtas e trazem o que não pode ser esquecido; a skill traz o procedimento longo e só entra quando é usada; o conhecimento é consulta.
 
@@ -53,7 +53,8 @@ No Team e no Enterprise, a skill pode ser compartilhada com outras pessoas da or
 
 Suba em **Arquivos** do projeto:
 - `docs/pesquisa-pericia-medica-judicial.md`: normas, jurisprudência, critérios de nexo e valoração, com fontes. Não tem nome de periciando.
-- **Opcional:** o modelo em branco de cada perito, sem dados de nenhum caso, com nome descritivo (ex.: `modelo-perito-A-TJRJ.docx`).
+- **Pares de exemplo** (o mesmo laudo antes e depois de preenchido), **anonimizados**. Já há um do modelo B em `projeto-claude/exemplos/`: os dois .docx e a nota `exemplo-modelo-B-hernia-LEIA.md`, que diz o que imitar e o que não imitar. Suba os três juntos. Para novos pares, troque nome, CPF, RG, CNH, endereço, número do processo e empresas, e tire as imagens de documentos.
+- **Opcional:** o modelo em branco de cada perito, sem dados de nenhum caso, com nome descritivo (ex.: `modelo-A-TJRJ.docx`).
 
 Cuidados:
 - O conhecimento do projeto lê só o texto: imagens dentro de .docx são ignoradas.
@@ -117,6 +118,7 @@ projeto-claude/
 ├── LEIA-ME.md                  este guia
 ├── instrucoes-do-projeto.md    texto para colar nas instruções do projeto
 ├── laudo-pericial.zip          skill pronta para enviar
+├── exemplos/                   par antes/depois anonimizado (modelo B, hérnia) e nota de uso
 └── laudo-pericial/             fonte da skill
     ├── SKILL.md                procedimento e regras
     ├── references/
